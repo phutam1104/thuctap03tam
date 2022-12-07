@@ -1,0 +1,20 @@
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+@import 'base/*.scss';
+@import 'core/lib/font-iconmoon';
+@import "slick-carousel/slick/slick.scss";
+@import "../../../../sage-theme/node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css";
+@import 'core/lib/slick-theme';
+@import 'core/lib/popup';
+@import 'modules/global/*.scss';
+@import 'modules/*.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}           

@@ -1,0 +1,107 @@
+{
+    "key": "group_5c923a79e8169",
+    "title": "Modules",
+    "fields": [
+        {
+            "key": "field_5c923a83d29a1",
+            "label": "Modules",
+            "name": "c8_templates",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_61cc0a39fec23": {
+                    "key": "layout_61cc0a39fec23",
+                    "name": "",
+                    "label": "",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6386b7e2af723": {
+                    "key": "layout_6386b7e2af723",
+                    "name": "mod_twocol",
+                    "label": "Mod twocol",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_638a0cb5ac28b": {
+                    "key": "layout_638a0cb5ac28b",
+                    "name": "slick_single_item",
+                    "label": "Slick Single Item",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_638b95b6bb25c": {
+                    "key": "layout_638b95b6bb25c",
+                    "name": "custom_scrollbar",
+                    "label": "Custom_scrollbar",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_638c819626ecf": {
+                    "key": "layout_638c819626ecf",
+                    "name": "banner",
+                    "label": "Banner",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_638e0fff7d7ba": {
+                    "key": "layout_638e0fff7d7ba",
+                    "name": "Content_1",
+                    "label": "Content1",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_638f576e666a8": {
+                    "key": "layout_638f576e666a8",
+                    "name": "Content_2",
+                    "label": "Content2",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Module",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1670338414
+}

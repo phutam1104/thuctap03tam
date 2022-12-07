@@ -1,0 +1,19 @@
+.banner {
+    div{
+
+            h1 {
+                @apply text-white md:text-center lg:text-left ;
+            }
+            h6 {
+                @apply text-white font-light text-xl md:text-center lg:text-left leading-snug;
+                
+            }
+            
+        }
+        button {
+
+                @apply font-extrabold mt-8  text-white;
+        }
+    
+    
+}
