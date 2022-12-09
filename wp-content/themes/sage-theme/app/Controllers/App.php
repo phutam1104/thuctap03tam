@@ -68,10 +68,122 @@ class App extends Controller
         $href = home_url();
         return compact('url', 'alt', 'href');
     }
-    public static function getFooter()
+    public static function getImgConnect()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/Group-2704.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getEcosystem1()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/1.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getEcosystem2()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/2.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getEcosystem3()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/3.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getEcosystem4()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/4.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getEcosystem5()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/5.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getEcosystem6()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/6.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getImgEnd()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img-end.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getImgLead1()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/leaders/lead1.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getImgLead2()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/leaders/lead2.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getImgLead3()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/leaders/lead3.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getImgLead4()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/leaders/lead4.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getImgLead5()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/leaders/lead5.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getImgLead6()
+    {
+        $banner = get_field('ns_body_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/leaders/lead6.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getLogoFooter()
     {
         $banner = get_field('ns_footer_background', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/backgroundfooter.png';
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/footer/logofooter.png';
         $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
         $href = home_url();
         return compact('url', 'alt', 'href');

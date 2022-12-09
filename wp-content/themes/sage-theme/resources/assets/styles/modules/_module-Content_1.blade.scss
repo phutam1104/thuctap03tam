@@ -6,12 +6,30 @@ section {
             }
         }
         div {
-            h6{
+            h6 {
                 @apply text-center;
                 letter-spacing: -0.01rem;
 
             }
-            
+        }
+        }
+        div {
+            div{
+                .icon-store-line{
+                    @apply pt-15;
+                }
+                h5 {
+                    
+                    @apply text-center pt-15;
+                }
+                h4 {
+                    @apply text-base text-brown-150;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: bold;
+
+                }
+
+               
+            }
         }
     }
-}

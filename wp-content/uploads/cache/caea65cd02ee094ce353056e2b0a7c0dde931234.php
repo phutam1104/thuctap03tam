@@ -10,7 +10,7 @@
     </aside>
     <div class="">
         <div class="sm:max-w-full sm:mx-16 md:mx-64 md:mt-32 md:mb-62 lg:mx-51 lg:block xl:mr-72 xl:min-w-634 xl:ml-44 xl:mt-0 2xl:mr-197">
-            <div class="lg:flex sm:block lg:max-w-full xl:max-w-99%">
+            <div class="lg:flex lg:justify-center sm:block lg:max-w-full xl:max-w-99%">
             <div class="xl:min-w-275 lg:min-w-370">
                 <h5>Drive Business Growth </h5>
                     <p>Tap into the power of predictive analytics and demand forecasting.
@@ -27,7 +27,7 @@
                     in the world.</p>
             </div>
             </div>
-            <div class="lg:flex sm:block lg:max-w-full xl:max-w-99% lg:columns-2">
+            <div class="lg:flex lg:justify-center sm:block lg:max-w-full xl:max-w-99% lg:columns-2">
             <div class=" xl:min-w-275 lg:mt-0 lg:min-w-370 md:mt-8">
                 <h5>Improve Operational Efficiencies</h5>
                 <p>Streamline processes and save money by reducing leakage with a fully

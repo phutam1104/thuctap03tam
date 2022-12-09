@@ -78,6 +78,42 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_63914a7158cbd": {
+                    "key": "layout_63914a7158cbd",
+                    "name": "mod_connect",
+                    "label": "Connect",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63916e5069b54": {
+                    "key": "layout_63916e5069b54",
+                    "name": "mod_ecosystem",
+                    "label": "Ecosystem",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63920a48776c5": {
+                    "key": "layout_63920a48776c5",
+                    "name": "mod_the_last",
+                    "label": "TheLast",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6392ea9aac50b": {
+                    "key": "layout_6392ea9aac50b",
+                    "name": "mod_leaders",
+                    "label": "Leaders",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -103,5 +139,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1670338414
+    "modified": 1670572698
 }
