@@ -14,4 +14,5 @@ import './modules/Menu';
 import './modules/Popup';
 import './modules/SelectC8';
 import './modules/slicksingle';
+import './modules/slickleaders';
 console.log('App Desktop')

@@ -3,3 +3,19 @@
     @apply mb-10;
   }
 }
+#footer {
+  div {
+    div {
+      div {
+        small {
+          @apply text-white font-semibold;
+
+        }
+      }
+      button {
+        @apply text-white font-extrabold; 
+      }
+
+    }
+  }
+}

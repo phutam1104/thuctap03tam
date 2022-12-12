@@ -1,8 +1,8 @@
-<section class="lg:flex sm:block mt-100">
+<section class="connect lg:flex sm:block mt-50 ">
     <div class="md:w-full md:h-308 lg:min-w-530 xl:min-w-712 2xl:min-w-958  bg-gray-50 relative">
     <img class="md:min-full lg:min-w-573 xl:min-w-772 2xl:min-w-1018 2xl:pl-115 md:left-0 md:pr-18 lg:pr-0 md:-top-36 lg:-right-24  absolute" src="{!! App::getImgConnect ()['url'] !!}" alt="{!! App::getImgConnect()['alt'] !!}">
     </div>
-    <aside class="md:w-full md:pt-145 lg:pt-2 md:px-63 lg:pl-47 lg:pr-51 xl:pl-80 xl:pr-45 2xl:pr-161 static">
+    <aside class="md:w-full md:pt-145 lg:pt-2 md:px-63 lg:pl-47 lg:pr-51 xl:pl-80 xl:pr-45 2xl:pr-161 static xl:pt-100">
         <h2>Connecting Your Business to What Matters Most</h2>
         <p>At Encompass, we are committed to improving the way the beverage industry works.</p>
 

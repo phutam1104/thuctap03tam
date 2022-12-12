@@ -1,35 +1,82 @@
-section {
+.content-1 {
     div {
         div {
             h2 {
                 @apply text-center;
             }
         }
-        div {
+        .nod-1 {
             h6 {
-                @apply text-center;
+                @apply text-center text-xl leading-[1.4em];
                 letter-spacing: -0.01rem;
 
             }
         }
         }
         div {
-            div{
-                .icon-store-line{
-                    @apply pt-15;
-                }
-                h5 {
-                    
-                    @apply text-center pt-15;
-                }
-                h4 {
-                    @apply text-base text-brown-150;
-                    font-family: 'Poppins', sans-serif;
-                    font-weight: bold;
+            div {
 
+                .one-1 { 
+                    h5 {
+                    
+                        @apply text-center lg:pt-15 md:pt-2 md:mb-5;
+                    }
+                    h6 {
+                        @apply text-lg text-center lg:mt-5;
+                            letter-spacing: -0.01em;
+
+                    }
+                    h4 {
+                        @apply text-center text-base text-brown-150 lg:mt-35 xl:mt-15 ;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: bold;
+
+                    }
+                }
+
+                .two-1 {
+                    h5 {
+                    
+                        @apply text-center pt-15 md:pt-12 md:mb-5;
+                    }
+                    h6 {
+                        @apply text-lg text-center;
+                            letter-spacing: -0.03em;
+    
+                    }
+                    h4 {
+                        @apply text-base text-brown-150 text-center;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: bold;
+    
+                    }
+                }
+                    .two-2 {
+                        @extend .two-1;
+                        h6 {
+                            @apply pt-5;
+                        }
+                    }
+                .three-1 {
+                    h5 {
+                    
+                        @apply text-center pt-15 md:pt-5 md:mb-5;
+                    }
+                    h6 {
+                        @apply text-lg md:p-4 text-center lg:mt-10;
+                            letter-spacing: -0.03em;
+    
+                    }
+                    h4 {
+                        @apply text-base text-brown-150 text-center lg:mt-12;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: bold;
+    
+                    }
                 }
 
                
             }
+        
         }
     }

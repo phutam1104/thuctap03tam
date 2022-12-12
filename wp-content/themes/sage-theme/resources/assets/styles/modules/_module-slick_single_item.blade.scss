@@ -1,11 +1,16 @@
-.carousel {
+.sick {
+    .carousel {
 
-    .-right-19 {
-        right: -38px;
-    }
-    div {
-        h3 {
-            @apply text-gray-300;
+        div {
+            div {
+                h6 {
+                    @apply text-gray-300 text-xl font-bold mb-0;
+                    }
+            }
+            
+            }
+        }
+        .-right-19 {
+            right: -38px;
         }
     }
-}

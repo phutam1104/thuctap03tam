@@ -1,0 +1,11 @@
+.connect {
+    aside {
+        h2 {
+            @apply lg:pr-20 xl:pr-0;
+        }
+        button {
+           @apply text-white font-extrabold;
+           font-family: Poppins;
+        }
+    }
+}

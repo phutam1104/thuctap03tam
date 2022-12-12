@@ -50,6 +50,7 @@ const maxWidth = {
   '580': '580px',
   '600': '600px',
   '821': '821px',
+  '752':'1504px',
 }
 module.exports = {
   maxWidth

@@ -5,6 +5,7 @@ const minHeight = {
   banner: '456px',
   '462':'462px',
   '954':'954px',
+  '100':'100px',
 }
 module.exports = {
   minHeight
