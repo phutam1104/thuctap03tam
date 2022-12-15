@@ -17,10 +17,10 @@ module.exports = {
       'hero-pattern': "url('/img/hero-pattern.svg')",
       'banner': "url(../../assets/images/banner/Group-2633.png)",
       'footer':"url(../../assets/images/footer/backgroundfooter.png)",
+      'bgthelast':"url(../../assets/images/Group-2468.png)",
     },
     fontFamily: {
-      montserrat: ['Montserrat', 'sans-serif'],
-      syncopate: ['Syncopate', 'sans-serif']
+      poppins:['Poppins', 'sans-serif'],
     },
 
 

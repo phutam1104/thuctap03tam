@@ -2,8 +2,13 @@
     div {
         div {
             h2 {
-                @apply text-center;
+                @apply text-gray-400 text-center tracking-sp029 leading-1.33;
             }
+        }
+        div {
+             p {
+                @apply tracking-sp014 leading-1.33;
+             }
         }
     }
 }

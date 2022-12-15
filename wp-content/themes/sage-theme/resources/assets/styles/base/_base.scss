@@ -1,6 +1,6 @@
 @layer base {
   body {
-    @apply text-base font-light md:text-lg  md:tracking-[-.005em] md:text-left;
+    @apply text-base font-light text-gray-300 md:text-lg md:text-left font-poppins;
   }
   html {
     @apply m-0;
@@ -16,7 +16,8 @@
 
   h2,
   .h2 {
-    @apply text-h2 font-bold md:text-h2-md md:tracking-[-.008em] md:text-left;
+    @apply text-h2 font-bold md:text-h2-md md:text-left tracking-am008;
+
   }
 
   h3, 
@@ -26,17 +27,19 @@
 
   h4,
   .h4 {
-    @apply text-h4 font-syncopate;
+    @apply text-h4 font-poppins;
   }
 
   h5,
   .h5 {
-    @apply text-h5 font-semibold md:text-h5-md md:tracking-[-.005em] md:text-left;
+    @apply text-h5 font-semibold md:text-h5-md md:text-left tracking-tighter;
+
   }
 
   h6,
   .h6 {
-    @apply text-h6 font-medium md:tracking-[-.005em];
+    @apply text-h6 font-medium tracking-tighter;
+
   }
   small {
     @apply text-sm;

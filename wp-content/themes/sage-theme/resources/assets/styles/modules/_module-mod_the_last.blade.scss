@@ -1,12 +1,21 @@
 .thelast {
-    h6 {
-        @apply text-brown-150 font-bold;
-    }
+ 
     div {
         div {
-            a {
-                @apply text-brown-150;
-            }
+            div {
+                h3 {
+                    @apply text-gray-400 tracking-sp022 leading-1.21; 
+                }
+                h5 {
+                    @apply text-gray-400 tracking-sp019 leading-1.17;
+                }
+                p {
+                    @apply tracking-sp014 leading-1.33;
+                }
+                a {
+                    @apply text-brown-150 tracking-sp013 leading-1.75;
+                }
+          }
         }
     }
 }

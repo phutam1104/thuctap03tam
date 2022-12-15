@@ -1,3 +1,22 @@
-h1, h5, p {
-    font-family: 'Poppins', sans-serif;
-}   
+.twocol {
+    aside {
+        div {
+            h2 {
+                @apply text-gray-400 tracking-sp029 leading-1.33;
+            }
+        }
+    }
+    div {
+        div {
+            div {
+                    h5 {
+                        @apply text-gray-400 tracking-sp019 leading-1.17;
+                    }
+                    p {
+                        @apply tracking-sp014 leading-1.33 ;
+                    }
+
+            }
+        }
+    }
+}

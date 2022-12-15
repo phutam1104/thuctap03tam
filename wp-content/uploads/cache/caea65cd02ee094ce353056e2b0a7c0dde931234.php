@@ -1,34 +1,33 @@
-<section class="md:mt-80 lg:mt-95 xl:mt-137 xl:flex xl:max-w-full">
+<section class="twocol sm:mt-37 lg:mt-33 xl:mt-182 xl:flex xl:max-w-full 2xl:mt-158">
     <aside class="sm:max-w-full sm:mx-16 md:mx-64 lg:ml-50 lg:mr-53 xl:ml-72 xl:min-w-428 xl:mr-0 2xl:ml-188">
         <div class="w-93 bg-brown-200 h-1"></div>
         <div class="mt-14">
             <h2>The Encompass
-            Platform Seamlessly
+                Platform Seamlessly
                 Connects the Supply
                 Chain, Allowing You <span class="md:invisible lg:visible ">to:</span></h2>
         </div>
     </aside>
-    <div class="">
-        <div class="sm:max-w-full sm:mx-16 md:mx-64 md:mt-32 md:mb-62 lg:mx-51 lg:block xl:mr-72 xl:min-w-634 xl:ml-44 xl:mt-0 2xl:mr-197">
-            <div class="lg:flex lg:justify-center sm:block lg:max-w-full xl:max-w-99%">
+    <div class="sm:max-w-full sm:mx-16 md:mx-64 md:mt-21 lg:mx-51 lg:block xl:mr-72 xl:min-w-634 xl:ml-44 xl:mt-0 2xl:mr-197">
+        <div class="lg:flex lg:justify-center sm:block lg:max-w-full xl:max-w-99%">
             <div class="xl:min-w-275 lg:min-w-370">
                 <h5>Drive Business Growth </h5>
-                    <p>Tap into the power of predictive analytics and demand forecasting.
-                        Capitalize on revenue-generating opportunities faster. Capture mission-critical data across
-                        your entire operation—including all three supply chain tiers—empowering you to bring your
-                        beverage or food business into new levels of profitability.</p>
+                <p>Tap into the power of predictive analytics and demand forecasting.
+                    Capitalize on revenue-generating opportunities faster. Capture mission-critical data across
+                    your entire operation—including all three supply chain tiers—empowering you to bring your
+                    beverage or food business into new levels of profitability.</p>
             </div>
 
-            <div class="xl:min-w-275 lg:mt-0 lg:ml-27 md:mt-8 lg:min-w-395 xl:ml-44">
+            <div class="xl:min-w-275 lg:mt-0 lg:ml-27 md:mt-12 lg:min-w-395 xl:ml-44">
                 <h5>Leverage Real-Time Data for Better Decision-Making</h5>
                 <p>Accelerate business decisions with better, more accurate system-to-system
                     data and comprehensive reporting that results in deep, actionable insights. Stay ahead of
                     potential disruptions and maintain a finger on the pulse of your supply chain from anywhere
                     in the world.</p>
             </div>
-            </div>
-            <div class="lg:flex lg:justify-center sm:block lg:max-w-full xl:max-w-99% lg:columns-2">
-            <div class=" xl:min-w-275 lg:mt-0 lg:min-w-370 md:mt-8">
+        </div>
+        <div class="lg:flex lg:justify-center sm:block lg:max-w-full xl:max-w-99% lg:columns-2">
+            <div class=" xl:min-w-275 lg:mt-0 lg:min-w-370 md:pt-5">
                 <h5>Improve Operational Efficiencies</h5>
                 <p>Streamline processes and save money by reducing leakage with a fully
                     integrated ERP system that works for your business. Encompass ERP makes it possible to
@@ -36,10 +35,9 @@
                     outcome.</p>
             </div>
             <div class="xl:min-w-275 lg:mt-0 lg:ml-27 md:mt-8 lg:min-w-395 xl:ml-44">
-                <h5>Enhance Team Dynamics & Employee Satisfaction</h5>
+                <h5>Enhance Team Dynamics & Employee <span class="xl:hidden">Satisfaction</span></h5>
                 <p>When your labor force has the tools they need to succeed, the workplace
-                    runs like a well-oiled machine. With Encompass ERP, every stakeholder across your supply </p>
-            </div>
+                    runs like a well-oiled machine. With Encompass ERP, every stakeholder across your supply chain—from purchasing to Point-of-Sale—has what they need to do their jobs effectively.</p>
             </div>
         </div>
     </div>

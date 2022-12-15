@@ -1,24 +1,24 @@
 
 .pin-header {
-  @apply bg-blue-300;
+  @apply bg-blue-300 hover:underline ;
 }
 .page-home-data,
 .front-page-data,
 .error404 {
   .header:not(.pin-header):not(.is-open-menu) {
     .hamburger-menu .icon-bar {
-      @apply bg-brown-100;
+      @apply bg-white;
     }
 
     .main-menu-ul {
-      @apply text-brown-100;
+      @apply hover:text-red-500
     }
 
     .btn-transparent {
-      @apply text-brown-100 border-brown-100;
+      @apply bg-white border-brown-100;
 
       &:hover {
-        @apply text-brown-200 border-brown-200;
+        @apply text-base border-brown-200;
       }
     }
   }

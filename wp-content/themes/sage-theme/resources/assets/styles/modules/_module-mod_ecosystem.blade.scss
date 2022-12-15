@@ -2,7 +2,12 @@
     div {
         div {
             h2{
-                @apply text-left;
+                @apply text-gray-400 text-left tracking-sp029 leading-1.33;
+            }
+        }
+        div {
+            p {
+                @apply tracking-sp014 leading-1.33;
             }
         }
     }

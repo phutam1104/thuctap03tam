@@ -1,12 +1,24 @@
 @layer base {
   .btn {
-    @apply px-11 font-bold inline-block select-none align-middle transition-all duration-300 ease-in-out rounded-sm uppercase py-7;
+    @apply px-37 py-8 rounded-3xl font-bold inline-block select-none align-middle transition-all duration-300 ease-in-out uppercase;
   }
 
   .btn-outline-brown {
     @apply text-brown-100 bg-gray-100 border-brown-100 hover:text-brown-200 hover:border-brown-200;
   }
   .btn-brown {
-    @apply text-white bg-brown-100 border-brown-100 hover:bg-brown-200 hover:border-brown-200;
+    @apply text-white bg-brown-100 border-brown-100 hover:bg-blue-300 hover:border-brown-200;
+  }
+  .btn-brown1 {
+    @apply text-white bg-brown-150 border-brown-150 hover:bg-black hover:border-brown-200;
+  }
+  .slick-button {
+    @apply w-1/2 md:pl-5 sm:p-0 inline-block select-none align-middle transition-all duration-300 ease-in-out hover:bg-blue-300;
+  }
+  .slick-button1 {
+    @apply inline-block select-none align-middle transition-all duration-300 ease-in-out hover:bg-blue-300;
+  }
+  .btn-footer {
+    @apply no-underline md:mt-11 rounded-3xl px-28 py-7 text-white ring ring-white lg:order-1 xl:order-2 hover:bg-blue-300;
   }
 }

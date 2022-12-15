@@ -44,10 +44,26 @@ class App extends Controller
         $href = home_url();
         return compact('url', 'alt', 'href');
     }
+    public static function getbgTheLast()
+    {
+        $logo = get_field('ns_header_logo', ACF_OPTION);
+        $url = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/Group-2468.png';
+        $alt = ($logo && $logo['alt']) ? $logo['alt'] : 'logo';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
     public static function getLine()
     {
         $banner = get_field('ns_body_line', ACF_OPTION);
         $url = ($banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/line.svg';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+    public static function getLine1()
+    {
+        $banner = get_field('ns_body_line', ACF_OPTION);
+        $url = ($banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/line1.png';
         $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
         $href = home_url();
         return compact('url', 'alt', 'href');
@@ -68,10 +84,18 @@ class App extends Controller
         $href = home_url();
         return compact('url', 'alt', 'href');
     }
+    public static function getImgLoading()
+    {
+        $banner = get_field('ns_loading', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ajax-loader.svg';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
     public static function getImgConnect()
     {
         $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/Group-2704.png';
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/Group-2705.png';
         $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
         $href = home_url();
         return compact('url', 'alt', 'href');
@@ -80,46 +104,6 @@ class App extends Controller
     {
         $banner = get_field('ns_body_banner', ACF_OPTION);
         $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/1.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getEcosystem2()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/2.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getEcosystem3()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/3.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getEcosystem4()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/4.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getEcosystem5()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/5.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getEcosystem6()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/6.png';
         $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
         $href = home_url();
         return compact('url', 'alt', 'href');

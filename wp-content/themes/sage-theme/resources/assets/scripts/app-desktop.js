@@ -12,7 +12,9 @@ import './modules/AnimationScrollPage'
 import './modules/Header';
 import './modules/Menu';
 import './modules/Popup';
+import './modules/LazyLoadImage';
 import './modules/SelectC8';
 import './modules/slicksingle';
 import './modules/slickleaders';
+import './modules/slickecosystem';
 console.log('App Desktop')
