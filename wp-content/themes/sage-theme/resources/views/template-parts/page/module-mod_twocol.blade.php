@@ -1,44 +1,39 @@
+@php
+$class2='xl:min-w-275 lg:mt-0 lg:ml-27 md:mt-12 lg:min-w-395 xl:ml-44"';
+@endphp
 <section class="twocol sm:mt-37 lg:mt-33 xl:mt-182 xl:flex xl:max-w-full 2xl:mt-158">
     <aside class="sm:max-w-full sm:mx-16 md:mx-64 lg:ml-50 lg:mr-53 xl:ml-72 xl:min-w-428 xl:mr-0 2xl:ml-188">
         <div class="w-93 bg-brown-200 h-1"></div>
         <div class="mt-14">
-            <h2>The Encompass
-                Platform Seamlessly
-                Connects the Supply
-                Chain, Allowing You <span class="md:invisible lg:visible ">to:</span></h2>
+            <h2>{!! $data->module['asidetowcol'] !!}</h2>
         </div>
     </aside>
     <div class="sm:max-w-full sm:mx-16 md:mx-64 md:mt-21 lg:mx-51 lg:block xl:mr-72 xl:min-w-634 xl:ml-44 xl:mt-0 2xl:mr-197">
-        <div class="lg:flex lg:justify-center sm:block lg:max-w-full xl:max-w-99%">
-            <div class="xl:min-w-275 lg:min-w-370">
-                <h5>Drive Business Growth </h5>
-                <p>Tap into the power of predictive analytics and demand forecasting.
-                    Capitalize on revenue-generating opportunities faster. Capture mission-critical data across
-                    your entire operation—including all three supply chain tiers—empowering you to bring your
-                    beverage or food business into new levels of profitability.</p>
-            </div>
-
-            <div class="xl:min-w-275 lg:mt-0 lg:ml-27 md:mt-12 lg:min-w-395 xl:ml-44">
-                <h5>Leverage Real-Time Data for Better Decision-Making</h5>
-                <p>Accelerate business decisions with better, more accurate system-to-system
-                    data and comprehensive reporting that results in deep, actionable insights. Stay ahead of
-                    potential disruptions and maintain a finger on the pulse of your supply chain from anywhere
-                    in the world.</p>
-            </div>
+        <div class="lg:flex lg:justify-between sm:block lg:w-full">
+      
+               @include('partials/twocol/twocol',[
+                'class'=>'xl:min-w-275 lg:min-w-370',
+                'title'=>$data->module['contenttowcol'][0]->title,
+                'content'=>$data->module['contenttowcol'][0]->contentd,
+               ])
+                @include('partials/twocol/twocol',[
+                    'class'=>$class2,
+                'title'=>$data->module['contenttowcol'][1]->title,
+                'content'=>$data->module['contenttowcol'][1]->contentd,
+               ])
         </div>
-        <div class="lg:flex lg:justify-center sm:block lg:max-w-full xl:max-w-99% lg:columns-2">
-            <div class=" xl:min-w-275 lg:mt-0 lg:min-w-370 md:pt-5">
-                <h5>Improve Operational Efficiencies</h5>
-                <p>Streamline processes and save money by reducing leakage with a fully
-                    integrated ERP system that works for your business. Encompass ERP makes it possible to
-                    identify where, when, and how resources can be best allocated to provide the most optimal
-                    outcome.</p>
-            </div>
-            <div class="xl:min-w-275 lg:mt-0 lg:ml-27 md:mt-8 lg:min-w-395 xl:ml-44">
-                <h5>Enhance Team Dynamics & Employee <span class="xl:hidden">Satisfaction</span></h5>
-                <p>When your labor force has the tools they need to succeed, the workplace
-                    runs like a well-oiled machine. With Encompass ERP, every stakeholder across your supply chain—from purchasing to Point-of-Sale—has what they need to do their jobs effectively.</p>
-            </div>
+        <div class="lg:flex lg:justify-between sm:block lg:w-full lg:">
+                @include('partials/twocol/twocol',[
+                'class' => 'xl:min-w-275 lg:mt-0 lg:min-w-370 md:pt-5',
+                'title'=>$data->module['contenttowcol'][2]->title,
+                'content'=>$data->module['contenttowcol'][2]->contentd,
+               ])
+                @include('partials/twocol/twocol',[
+                'class'=>$class2,
+                'title'=>$data->module['contenttowcol'][3]->title,
+                'content'=>$data->module['contenttowcol'][3]->contentd,
+               ])
+
         </div>
     </div>
 </section>

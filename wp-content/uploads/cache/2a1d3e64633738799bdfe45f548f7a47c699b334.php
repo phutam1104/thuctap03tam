@@ -12,7 +12,7 @@
         </div>
         <div class="flex flex-row justify-between">
             <div class="w-30">
-                <button class="prev1 slick-button1"><span class="icomoon icon-chevron-left text-4xl text-brown-150"></span></button>
+                <button aria-label="previous" class="prev1 slick-button1"><span class="icomoon icon-chevron-left text-4xl text-brown-150"></span></button>
             </div>
             <div class="slick-leaders 2xl:ml-43 2xl:mr-25 w-4/5">
                 <div class=""> <img class="lazy" src="<?php echo App::getImgLoading()['url']; ?>" data-src="<?php echo App::getImgLead1()['url']; ?>" alt="<?php echo App::getImgLead1()['alt']; ?>">
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="w-30">
-                <button class="next1 slick-button1"><span class="icomoon icon-chevron-right text-4xl text-brown-150"></span></button>
+                <button aria-label="next" class="next1 slick-button1"><span class="icomoon icon-chevron-right text-4xl text-brown-150"></span></button>
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@
             <div
                 class="md:px-30 lg:px-22  w-full down_lg:flex down_lg:flex-wrap lg:w-1/5 header-mobile relative justify-between items-center">
                 <div class="lg:w-113 lg:h-full relative">
-                    <a id="header-logo" class="navbar-brand header-logo py-9 inline-block align-middle"
+                    <a id="header-logo" aria-label="Logo" class="navbar-brand header-logo py-9 inline-block align-middle"
                         href="<?php echo App::getLogo()['href']; ?>">
                         <img class="w-113 anima-opacity" src="<?php echo App::getLogo()['url']; ?>" alt="<?php echo App::getLogo()['alt']; ?>" >
                     </a>
