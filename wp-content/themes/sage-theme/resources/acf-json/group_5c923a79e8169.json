@@ -817,7 +817,28 @@
                     "name": "mod_the_last",
                     "label": "TheLast",
                     "display": "block",
-                    "sub_fields": [],
+                    "sub_fields": [
+                        {
+                            "key": "field_63a34db56d0e4",
+                            "label": "Contentl",
+                            "name": "contentl",
+                            "type": "post_object",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": "",
+                            "taxonomy": "",
+                            "allow_null": 0,
+                            "multiple": 1,
+                            "return_format": "object",
+                            "ui": 1
+                        }
+                    ],
                     "min": "",
                     "max": ""
                 },
@@ -826,7 +847,66 @@
                     "name": "mod_leaders",
                     "label": "Leaders",
                     "display": "block",
-                    "sub_fields": [],
+                    "sub_fields": [
+                        {
+                            "key": "field_63a41e66fcc03",
+                            "label": "Titileleader",
+                            "name": "titileleader",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_63a41e74fcc04",
+                            "label": "Contentlead",
+                            "name": "contentlead",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_63a41e82fcc05",
+                            "label": "Slickleader",
+                            "name": "slickleader",
+                            "type": "post_object",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": "",
+                            "taxonomy": "",
+                            "allow_null": 0,
+                            "multiple": 1,
+                            "return_format": "object",
+                            "ui": 1
+                        }
+                    ],
                     "min": "",
                     "max": ""
                 }
@@ -854,5 +934,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1671509713
+    "modified": 1671700127
 }

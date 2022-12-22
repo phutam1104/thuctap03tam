@@ -21,19 +21,9 @@
         </div>
 </section>
 
-<div class="container">
-    <h3>Module: Slickcarosel</h3>
-    <?php $__currentLoopData = $data->module['slicksingle']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 
-   <?php echo $item->post_content; ?>
-
-   <?php echo $item->post_title; ?>
-
-         <?php echo $item->pos; ?>
-
-    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 </div>
 <?php
-// var_dump($data->module['slicksingle']);
-var_dump($data->dataslick);
+// var_dump($data->module['slicksingle'][0]->pos);
+// var_dump($data->dataslick);
 // var_dump($data->id);

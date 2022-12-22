@@ -90,3 +90,32 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
+
+    function wporg_custom_post_type() {
+        register_post_type('product',
+            array(
+                'labels'      => array(
+                    'name'          => __('Products', 'textdomain'),
+                    'singular_name' => __('Product', 'textdomain'),
+                ),
+                    'public'      => true,
+                    'has_archive' => true,
+            )
+        );
+    }
+    add_action('init', 'wporg_custom_post_type');
+
+    function logo_custom_post_type() {
+        register_post_type('logos',
+            array(
+                'labels'      => array(
+                    'name'          => __('Logos', 'textdomain'),
+                    'singular_name' => __('Logos', 'textdomain'),
+                ),
+                    'public'      => true,
+                    'has_archive' => true,
+            )
+        );
+    }
+    add_action('init', 'logo_custom_post_type');
+    

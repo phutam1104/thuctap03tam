@@ -6,7 +6,7 @@
                 <div class="lg:w-113 lg:h-full relative">
                     <a id="header-logo" aria-label="Logo" class="navbar-brand header-logo py-9 inline-block align-middle"
                         href="{!! App::getLogo()['href'] !!}">
-                        <img class="w-113 anima-opacity" src="{!! App::getLogo()['url'] !!}" alt="{!! App::getLogo()['alt'] !!}" >
+                        <img class="w-113" src="{!! App::getLogo()['url'] !!}" alt="{!! App::getLogo()['alt'] !!}" >
                     </a>
                 </div>
                 <div class="block lg:hidden">
@@ -23,23 +23,7 @@
 
             <div class="col w-full lg:w-4/5 navbar-collapse main-menu flex flex-col justify-between" id="main-menu"
                 data-module="menu">
-                <ul
-                    class="main-menu-ul navbar-nav list-none flex mb-0 p-0 text-white hover:text-red-500 flex-col text-inherit
-            lg:flex-row lg:justify-end">
-                    <li class="menu-item mb-0 ">
-                        <a href="{!! App::getLogo()['href'] !!}" class="block py-9 lg:py-9 lg:px-15 no-underline" href="#">ABOUT US</a>
-                    </li>   
-                    <li class="menu-item mb-0">
-                        <a class="block py-9 lg:py-9 lg:px-15 no-underline" href="#">LEADERSHIP</a>
-                    </li>
-                    <li class="menu-item mb-0">
-                        <a href="{!! App::getLogo()['href'] !!}" class="block py-9 lg:py-9 lg:px-15 no-underline font-semibold" href="#">CAREERS</a>
-                    </li>
-
-                    <li class="active menu-item mb-0">
-                        <a href="{!! App::getLogo()['href'] !!}" class="block py-9 lg:py-9 lg:px-15 no-underline font-semibold" href="#">CONTACT US</a>
-                    </li>
-                </ul>
+              
                 {!! App::getMainNav() !!}
             </div>
         </nav>

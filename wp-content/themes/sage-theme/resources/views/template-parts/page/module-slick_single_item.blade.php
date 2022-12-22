@@ -31,16 +31,16 @@
         </div>
 </section>
 
-<div class="container">
+{{-- <div class="container">
     <h3>Module: Slickcarosel</h3>
     @foreach ($data->module['slicksingle'] as $item)
 
    {!! $item->post_content !!}
    {!! $item->post_title !!}
          {!! $item->pos!!}
-    @endforeach
+    @endforeach --}}
 </div>
 <?php
-// var_dump($data->module['slicksingle']);
-var_dump($data->dataslick);
+// var_dump($data->module['slicksingle'][0]->pos);
+// var_dump($data->dataslick);
 // var_dump($data->id);

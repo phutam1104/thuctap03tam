@@ -1,4 +1,4 @@
-<footer id="footer" class="module footer bg-footer bg-no-repeat bg-cover w-full relative bottom-0 md:h-230 lg:h-193 xl:h-217 2xl:h-241 md:px-51 2xl:px-161 sm:-mt-45 lg:-mt-65 xl:-mt-80 2xl:-mt-116">
+<footer id="footer" class="module_footer bg-footer bg-no-repeat bg-cover w-full relative bottom-0 md:h-230 lg:h-193 xl:h-217 2xl:h-241 md:px-51 2xl:px-161 sm:-mt-45 lg:-mt-65 xl:-mt-80 2xl:-mt-116">
   <div class="flex sm:flex-col lg:flex-row sm:pt-88 sm:items-center xl:pt-120 2xl:pt-155">
     <div class="">
       <img class="w-113 lazy" src="<?php echo App::getImgLoading()['url']; ?>" data-src="<?php echo App::getLogoFooter()['url']; ?>" alt="<?php echo App::getLogoFooter()['alt']; ?>">
@@ -10,12 +10,9 @@
         <a href="#" class="no-underline"><span class="icomoon icon-Icon-awesome-linkedin text-2xl"></span></a>
       </div>
     </div>
-    <div class="md:mt-18 flex flex-col xl:flex-row sm:items-center w-full lg:items-end xl:md:justify-between xl:ml-75 xl:mr-40">
-      <div class="flex lg:order-2 xl:order-1 sm:justify-between sm:w-full lg:w-4/5 xl:w-3/5 lg:mt-20">
-        <small>ORCHESTRA SITE</small>
-        <small>ENCOMPASS WEBSITE</small>
-        <small>HANDOFF WEBSITEM</small>
-      </div>
+    <div class="main-menu md:mt-18 flex flex-col xl:flex-row sm:items-center w-full lg:items-end xl:md:justify-between xl:ml-75 xl:mr-40" id="main-menu" data-module="menu">
+        <?php echo App::getFooterNav(); ?>
+
       <a href="<?php echo App::getLogo()['href']; ?>"class="btn-footer no-underline ">
         CONTACT
       </a>

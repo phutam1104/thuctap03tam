@@ -152,7 +152,9 @@ class HookActions
          */
         register_nav_menus([
             'primary_navigation' => __('Primary Navigation', 'sage'),
-            'footer_navigation' => __('Footer Navigation', 'sage')
+            'footer_navigation' => __('Footer Navigation', 'sage'),
+            'slick_navigation'=> __('Slick Navigation', 'sage'),
+
         ]);
 
         /**

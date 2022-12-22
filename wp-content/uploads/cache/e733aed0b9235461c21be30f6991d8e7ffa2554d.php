@@ -1,3 +1,17 @@
+<?php
+    $isActive = false;
+    $hasError = true;
+?>
+ 
+<span @class([
+    'p-4',
+    'font-bold' => $isActive,
+    'text-gray-500' => ! $isActive,
+    'bg-red' => $hasError,
+])>Helloooosdadasd</span>
+ 
+<span class="p-4 text-gray-500 bg-red"></span>
+
 <section class="bg-banner bg-no-repeat w-full banner lg:flex relative md:pt-100 lg:pt-98 md:-mt-100 xl:pt-94 xl:-mt-110 2xl:pt-42 2xl:-mt-47 ">
     <div class="row 2xl:pt-85 sm:pt-35 lg:pt-50 xl:pt-72 flex-col md:min-w-638 lg:min-w-370 sm:mx-32 lg:absolute md:static justify-center 2xl:ml-188 2xl:mr-517 lg:ml-50 lg:mr-288 xl:ml-73 xl:mr-392">
             <div class="lg:pr-11">

@@ -10,6 +10,9 @@
     <main id="main-content">
       @yield('content')
     </main>
+    {{-- @section('content1')
+       @show --}} 
+
     @if (App\display_sidebar())
       <aside class="sidebar">
         @include('partials.sidebar')

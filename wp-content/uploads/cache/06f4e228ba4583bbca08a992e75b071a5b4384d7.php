@@ -11,6 +11,8 @@
     <main id="main-content">
       <?php echo $__env->yieldContent('content'); ?>
     </main>
+     
+
     <?php if(App\display_sidebar()): ?>
       <aside class="sidebar">
         <?php echo $__env->make('partials.sidebar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

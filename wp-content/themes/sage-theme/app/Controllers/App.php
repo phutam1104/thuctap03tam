@@ -256,10 +256,11 @@ class App extends Controller
         if (has_nav_menu($location)) {
             return wp_nav_menu(array(
                 THEME_LOCATION => $location,
-                ITEMS_WRAP => '%3$s',
+                // ITEMS_WRAP => '%3$s',
                 CONTAINER => false,
                 DEPTH => 2,
                 WALKER => new \App\Services\Nav\C8ThemeFooterMenu(),
+                'menu_class' => 'list-none flex lg:order-2 xl:order-1 sm:justify-between sm:w-full lg:w-4/5 xl:w-3/5 lg:mt-20 text-white',
                 ECHO_TEXT => false,
             ));
         } else {
