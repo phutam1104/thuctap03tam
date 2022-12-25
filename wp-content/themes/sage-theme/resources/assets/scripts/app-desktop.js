@@ -17,4 +17,5 @@ import './modules/SelectC8';
 import './modules/slicksingle';
 import './modules/slickleaders';
 import './modules/slickecosystem';
+import './modules/loadmore';
 console.log('App Desktop')

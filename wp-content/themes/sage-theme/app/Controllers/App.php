@@ -4,13 +4,23 @@ namespace App\Controllers;
 
 use Sober\Controller\Controller;
 use App\Services\Queries;
-
+use App\Services\Api;
 class App extends Controller
 {
+    // public function usingApi(Api $api){
+    //     $this->api = $api;
+    // }
+    // public static function usingApi()
+    // {
+    //     // $this->json('POST', 'api/v1/get-post');
+    //    return (new Api)->register_get_posts();
+    // }
+
     public function siteName()
     {
         return get_bloginfo('name');
     }
+
 
     public static function title()
     {
@@ -44,46 +54,17 @@ class App extends Controller
         $href = home_url();
         return compact('url', 'alt', 'href');
     }
-    public static function getbgTheLast()
+    public static function getSocial()
     {
-        $logo = get_field('ns_header_logo', ACF_OPTION);
-        $url = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/Group-2468.png';
-        $alt = ($logo && $logo['alt']) ? $logo['alt'] : 'logo';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
+        $Social = get_field('ns_social_media', 'options');
+        return $Social ;
     }
-    public static function getLine()
+    public static function getLogoWeb()
     {
-        $banner = get_field('ns_body_line', ACF_OPTION);
-        $url = ($banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/line.svg';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
+        $logofooter = get_field('logofooter', 'options');
+        return $logofooter ;
     }
-    public static function getLine1()
-    {
-        $banner = get_field('ns_body_line', ACF_OPTION);
-        $url = ($banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/line1.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getVerticalLine()
-    {
-        $banner = get_field('ns_body_line', ACF_OPTION);
-        $url = ($banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/vline.svg';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getImgBanner()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/banner/Group-2596.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
+
     public static function getImgLoading()
     {
         $banner = get_field('ns_loading', ACF_OPTION);
@@ -92,14 +73,7 @@ class App extends Controller
         $href = home_url();
         return compact('url', 'alt', 'href');
     }
-    public static function getImgConnect()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/Group-2705.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
+
     public static function getEcosystem1()
     {
         $banner = get_field('ns_body_banner', ACF_OPTION);
@@ -108,62 +82,8 @@ class App extends Controller
         $href = home_url();
         return compact('url', 'alt', 'href');
     }
-    public static function getImgEnd()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img-end.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getImgLead1()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/leaders/lead1.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getImgLead2()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/leaders/lead2.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getImgLead3()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/leaders/lead3.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getImgLead4()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/leaders/lead4.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getImgLead5()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/leaders/lead5.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
-    public static function getImgLead6()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/leaders/lead6.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
+    
+   
     public static function getLogoFooter()
     {
         $banner = get_field('ns_footer_background', ACF_OPTION);

@@ -16,7 +16,7 @@
                     <img class="lazy" src="{{ $data->module['ecosystemrp']->slicke ->url}}" data-src="{!! App::getEcosystem1()['url'] !!}" alt="{!! App::getEcosystem1()['alt'] !!}">
                 </div>
                     @endforeach
-
+                
                     {{-- <div class="">
                         <img class="lazy" src="{!! App::getImgLoading()['url'] !!}" data-src="{!! App::getEcosystem1()['url'] !!}" alt="{!! App::getEcosystem1()['alt'] !!}">
                     </div>
@@ -42,4 +42,6 @@
         //     var_dump( $value->slicke);
         // }
 // var_dump($data->module['ecosystemrp'][0]->slicke)
+// var_dump(App::getEcosystem1());
+// var_dump(App::getLogoWeb()['url']);
 ?>

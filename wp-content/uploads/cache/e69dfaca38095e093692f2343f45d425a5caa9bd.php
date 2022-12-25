@@ -24,6 +24,6 @@
 
 </div>
 <?php
-// var_dump($data->module['slicksingle'][0]->pos);
+// var_dump($data->module['slicksingle']);
 // var_dump($data->dataslick);
 // var_dump($data->id);

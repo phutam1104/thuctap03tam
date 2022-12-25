@@ -4,6 +4,7 @@ use App\Services\ShortCodes;
 use App\Services\HookFilters;
 use App\Services\HookActions;
 use App\Services\Ajax;
+use App\Services\Api;
 
 /**
  * Register Post Type
@@ -35,3 +36,8 @@ $hookActions->init();
  */
 $hookFilters = new HookFilters();
 $hookFilters->init();
+
+
+
+$Api=new Api();
+$Api->Init();

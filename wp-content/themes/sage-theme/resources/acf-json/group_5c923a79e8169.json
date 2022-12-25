@@ -909,6 +909,15 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_63a70bddb646e": {
+                    "key": "layout_63a70bddb646e",
+                    "name": "mod_allpost",
+                    "label": "Allpost",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -934,5 +943,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1671700127
+    "modified": 1671891933
 }

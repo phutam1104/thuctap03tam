@@ -16,7 +16,7 @@
                     <img class="lazy" src="<?php echo e($data->module['ecosystemrp']->slicke ->url); ?>" data-src="<?php echo App::getEcosystem1()['url']; ?>" alt="<?php echo App::getEcosystem1()['alt']; ?>">
                 </div>
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-
+                
                     
                 </div>
                 <div class="w-1/5 lg:w-2/6 xl:w-1/5 flex flex-row justify-between mx-auto lg:mr-0 sm:mt-20 lg:mt-25">
@@ -34,4 +34,6 @@
         //     var_dump( $value->slicke);
         // }
 // var_dump($data->module['ecosystemrp'][0]->slicke)
+// var_dump(App::getEcosystem1());
+// var_dump(App::getLogoWeb()['url']);
 ?>
