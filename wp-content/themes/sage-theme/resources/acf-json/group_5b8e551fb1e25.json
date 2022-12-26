@@ -217,11 +217,11 @@
                         "id": ""
                     },
                     "choices": {
-                        "<span class=\"icomoon icon-Icon-awesome-youtube text-2xl\"><\/span>": "<span class=\"icomoon icon-Icon-awesome-youtube text-2xl\"><\/span>",
-                        "<span class=\"icomoon icon-Icon-awesome-instagram text-2xl\"><\/span>": "<span class=\"icomoon icon-Icon-awesome-instagram text-2xl\"><\/span>",
-                        "<span class=\"icomoon icon-Icon-ionic-logo-twitter text-2xl\"><\/span>": "<span class=\"icomoon icon-Icon-ionic-logo-twitter text-2xl\"><\/span>",
-                        "<span class=\"icomoon icon-Icon-awesome-linkedin text-2xl\"><\/span>": "<span class=\"icomoon icon-Icon-awesome-linkedin text-2xl\"><\/span>",
-                        "<span class=\"icomoon icon-Icon-simple-facebook text-2xl\"><\/span>": "<span class=\"icomoon icon-Icon-simple-facebook text-2xl\"><\/span>"
+                        "Youtube": "Youtube",
+                        "Instagram": "Instagram",
+                        "Twitter": "Twitter",
+                        "Linkedin": "Linkedin",
+                        "Facebook": "Facebook"
                     },
                     "default_value": false,
                     "allow_null": 1,
@@ -636,5 +636,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1671991646
+    "modified": 1672073707
 }

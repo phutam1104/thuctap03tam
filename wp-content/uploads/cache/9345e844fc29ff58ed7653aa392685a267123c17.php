@@ -6,9 +6,6 @@
         <?php $__currentLoopData = App::getSocial(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $value): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
         <a href="<?php echo $value[link]; ?>" class="no-underline"><?php echo $value[icon]; ?></a>
         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-
-
-        
       </div>
     </div>
     <div class="main-menu md:mt-18 flex flex-col xl:flex-row sm:items-center w-full lg:items-end xl:md:justify-between xl:ml-75 xl:mr-40" id="main-menu" data-module="menu">
@@ -25,7 +22,8 @@
   </div>
 </footer>
 <?php
-// var_dump(App::getSocial());
+// foreach(App::getSocial() as $value)
+// var_dump($value);
 ?>
 <!-- endblock -->
 <noscript>

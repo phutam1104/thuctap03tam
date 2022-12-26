@@ -11,8 +11,9 @@ class Queries
     public static function getPost()
     {
         $argc=[
-            'posts_per_page'=> 2,
+            'posts_per_page'=> 3,
             'post_type'=>'post',
+
         ];
         $queryAll=new \WP_Query($argc);
         return $queryAll;
@@ -21,7 +22,8 @@ class Queries
     public static function loadMore(){
         $argc=[
             'posts_per_page'=> -1,
-            'post_type'=>'post',
+            'post_type'=>'post',    
+           
         ];
         $queryAll=new \WP_Query($argc);
         return $queryAll;

@@ -57,6 +57,28 @@ class App extends Controller
     public static function getSocial()
     {
         $Social = get_field('ns_social_media', 'options');
+        $youtube='Youtube';
+        $instagram='Instagram';
+        $twitter='Twitter';
+        $linkedin='Linkedin';
+        $facebook='Facebook';
+        foreach($Social as $key=>$value) {
+            if(strcmp($value['icon'], $youtube) == 0){
+                $Social[$key]['icon'] ='<span class="icomoon icon-Icon-awesome-youtube text-2xl"></span>';
+            }
+            if(strcmp($value['icon'], $instagram) == 0){
+                $Social[$key]['icon'] ='<span class="icomoon icon-Icon-awesome-instagram text-2xl"></span>';
+            }
+            if(strcmp($value['icon'], $twitter) == 0){
+                $Social[$key]['icon'] ='<span class="icomoon icon-Icon-ionic-logo-twitter text-2xl"></span>';
+            }
+            if(strcmp($value['icon'], $linkedin) == 0){
+                $Social[$key]['icon'] ='<span class="icomoon icon-Icon-awesome-linkedin text-2xl"></span>';
+            } 
+            if(strcmp($value['icon'], $facebook) == 0){
+                $Social[$key]['icon'] ='<span class="icomoon icon-Icon-simple-facebook text-2xl"></span>';
+            }               
+        }
         return $Social ;
     }
     public static function getLogoWeb()

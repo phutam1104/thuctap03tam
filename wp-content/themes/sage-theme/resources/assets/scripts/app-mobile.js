@@ -17,4 +17,5 @@ import './modules/slicksingle';
 import './modules/slickleaders';
 import './modules/slickecosystem';
 import './modules/LazyLoadImage';
+import './modules/loadmore';
 console.log('App Mobile')

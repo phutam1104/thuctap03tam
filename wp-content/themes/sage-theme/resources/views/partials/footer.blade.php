@@ -6,13 +6,6 @@
         @foreach (App::getSocial() as $key => $value)
         <a href="{!! $value[link] !!}" class="no-underline">{!! $value[icon] !!}</a>
         @endforeach
-
-
-        {{-- <a href="" class="no-underline"></a>
-        <a href="#" class="no-underline"></a>
-        <a href="#" class="no-underline"></a>
-        <a href="#" class="no-underline"></a>
-        <a href="#" class="no-underline"></a> --}}
       </div>
     </div>
     <div class="main-menu md:mt-18 flex flex-col xl:flex-row sm:items-center w-full lg:items-end xl:md:justify-between xl:ml-75 xl:mr-40" id="main-menu" data-module="menu">
@@ -27,7 +20,8 @@
   </div>
 </footer>
 <?php
-// var_dump(App::getSocial());
+// foreach(App::getSocial() as $value)
+// var_dump($value);
 ?>
 <!-- endblock -->
 <noscript>
