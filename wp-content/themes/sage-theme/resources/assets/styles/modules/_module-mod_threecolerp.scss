@@ -1,0 +1,36 @@
+.content-1 {
+    h5 {
+        @apply text-center;
+    }
+    h4 {
+        @apply text-center text-base md:text-le sm:-mt-6 text-brown-150 font-bold tracking-sp013;
+    }
+    p {
+        @apply text-center;
+    }
+            h3 {
+                @apply text-center ;
+            }
+        
+        .nod-1 {
+            p {
+                @apply text-center text-base md:text-pbig ;
+            }
+        }
+                .two-1 {
+                    h5 {
+                        @apply text-center pt-15 sm:pt-8 sm:mb-5 ;
+                    }
+             
+                }
+                    .two-2 {
+                        @extend .two-1;
+                        h5 {
+                            @apply lg:pt-14;
+                        }
+                      
+                    }
+        .space:last-child {
+            @apply hidden;
+        }
+}

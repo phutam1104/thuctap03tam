@@ -96,14 +96,7 @@ class App extends Controller
         return compact('url', 'alt', 'href');
     }
 
-    public static function getEcosystem1()
-    {
-        $banner = get_field('ns_body_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/ecosystem/1.png';
-        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
-        $href = home_url();
-        return compact('url', 'alt', 'href');
-    }
+ 
     
    
     public static function getLogoFooter()

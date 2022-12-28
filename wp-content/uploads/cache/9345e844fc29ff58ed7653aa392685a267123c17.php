@@ -1,4 +1,4 @@
-<footer id="footer" class="module_footer bg-footer bg-no-repeat bg-cover w-full relative bottom-0 md:h-230 lg:h-193 xl:h-217 2xl:h-241 md:px-51 2xl:px-161 sm:-mt-45 lg:-mt-65 xl:-mt-80 2xl:-mt-116">
+<footer id="footer" class="module_footer bg-footer bg-no-repeat bg-cover w-full relative bottom-0 sm:h-230 lg:h-200 xl:h-230 2xl:h-241 md:px-51 2xl:px-161 sm:-mt-45 lg:-mt-65 xl:-mt-80 2xl:-mt-116">
   <div class="flex sm:flex-col lg:flex-row sm:pt-88 sm:items-center xl:pt-120 2xl:pt-155">
     <div class="">
       <img class="w-113 lazy" src="<?php echo App::getImgLoading()['url']; ?>" data-src="<?php echo App::getLogoWeb()['url']; ?>" alt="<?php echo App::getLogoWeb()['alt']; ?>">

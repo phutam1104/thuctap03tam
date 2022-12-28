@@ -7,7 +7,10 @@ class ModLeaders
     public function dataModule($module)
     {
         return (object) [
-            'module' => $module
+            'module' => $module,
+            'titileleader'=>$module['titileleader'],
+            'contentlead'=>$module['contentlead'],
+            'slickleader'=>$module['slickleader'],
         ];
     }
 }

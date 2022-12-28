@@ -7,7 +7,8 @@ class ModEcosystem
     public function dataModule($module)
     {
         return (object) [
-            'module' => $module
+            'module' => $module,
+            'ecosystemrp'=>$module['ecosystemrp']
         ];
     }
 }

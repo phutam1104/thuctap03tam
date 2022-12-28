@@ -1,0 +1,13 @@
+.twocol {
+    aside {
+            h3 {
+                span {
+                    @apply sm:invisible  lg:visible;
+                }
+        }
+    }
+                    span {
+                        @apply xl:hidden;
+                    }
+
+}

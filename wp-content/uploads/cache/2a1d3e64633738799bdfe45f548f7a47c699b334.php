@@ -1,14 +1,14 @@
 <section class="leaders w-full flex flex-col justify-center text-center sm:mt-60 lg:mt-52 xl:mt-90">
     <div class="Slick 2xl:ml-188 2xl:mr-197 md:mx-28 xl:mx-73">
         <div class="lg:px-90 xl:px-148 sm:px-25">
-            <h2>
-                <?php echo $data->module['titileleader']; ?>
+            <h3>
+                <?php echo $data->titileleader; ?>
 
-            </h2>
+            </h3>
         </div>
         <div class="lg:px-65">
             <p>
-                <?php echo $data->module['contentlead']; ?>
+                <?php echo $data->contentlead; ?>
 
             </p>
         </div>
@@ -19,22 +19,19 @@
             </div>
             <div class="slick-leaders 2xl:ml-43 2xl:mr-25 w-4/5">
 
-                <?php $__currentLoopData = $data->module['slickleader']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $value): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <?php $__currentLoopData = $data->slickleader; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $value): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <div>
                         <?php echo $value->post_content; ?>
 
                     </div>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 
-                <?php $__currentLoopData = $data->module['slickleader']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $value): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <?php $__currentLoopData = $data->slickleader; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $value): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <div>
                         <?php echo $value->post_content; ?>
 
                     </div>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-
-
-                
             </div>
             <div class="w-30">
                 <button aria-label="next" class="next1 slick-button1"><span

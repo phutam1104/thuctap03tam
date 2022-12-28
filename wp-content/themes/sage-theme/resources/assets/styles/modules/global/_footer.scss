@@ -3,7 +3,7 @@
     ul{
         @apply list-none;
     }
-    li{
-        @apply list-none;
+    a {
+        @apply sm:text-sm md:text-base;
     }
 }

@@ -5,6 +5,8 @@ const fontSize = {
   base: ['1rem', { lineHeight: '1.44' }],
   lg: ['1.125rem', { lineHeight: '1.33' }],
   xl: ['1.25rem', { lineHeight: '1.75' }],
+  'le':[rem(16),{ lineHeight: '1.75' }],
+  'pbig':[rem(20),{ lineHeight: '1.4' }],
   '2xl': ['1.5rem', { lineHeight: '2' }],
   '3xl': ['1.875rem', { lineHeight: '2.25' }],
   '4xl': ['2.25rem', { lineHeight: '2.5' }],
@@ -20,13 +22,16 @@ const fontSize = {
   'h5': ['1.375rem', { lineHeight: '1.45455' }],
   'h6': ['1.125rem', { lineHeight: '1.27778' }],
   'h1-md': [rem(55), { lineHeight: '1.09' }],
-  'h2-md': ['2.25rem', { lineHeight: '1.33' }],
-  'h3-md': ['1.875rem', { lineHeight: '1.08333' }],
-  'h3-md': ['1.625rem', { lineHeight: '1.38462' }],
+  'h2-md': [rem(48), { lineHeight: '1.33' }],
+  'h3-md': ['2.25rem', { lineHeight: '1.33' }],
+  'h3-md': ['1.625rem', { lineHeight: '1.38462' },],
   'h4-md': ['1.75rem', { lineHeight: '1.21429' }],
   'h5-md': ['1.5rem', { lineHeight: '1.17' }],
   'h6-md': ['1.25rem', { lineHeight: '1.35' }],
-  'btn': ['.875em', { lineHeight: '1.2' }]
+  'btn': ['.875em', { lineHeight: '1.2' }],
+  'h3-m': ['2.25rem', { lineHeight: '1.33' }],
+  'h4-m': [rem(28), { lineHeight: '1.21' }],
+'h5-m': [rem(24), { lineHeight: '1.17' }],
 
 }
 module.exports = {

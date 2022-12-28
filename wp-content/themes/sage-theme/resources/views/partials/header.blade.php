@@ -1,8 +1,8 @@
-<header id="header" class=" module header w-full top-0 left-0 fixed z-200 bg-blue-300 h-55 border-b-1 border-white border-opacity-20">
+<header id="header" class="module border-white border-b-1 border-opacity-20 header w-full top-0 left-0 fixed z-200 bg-blue-300 h-55 ">
     <div class="container h-full ">
         <nav class="py-9 row navbar items-center lg:px-26">
             <div
-                class="md:px-30 lg:pr-22 lg:pl-28  w-full down_lg:flex down_lg:flex-wrap lg:w-1/5 header-mobile relative justify-between items-center">
+                class="md:px-30 sm:px-15 lg:pr-22 lg:pl-28  w-full down_lg:flex down_lg:flex-wrap lg:w-1/5 header-mobile relative justify-between items-center">
                 <div class="lg:w-113 lg:h-full relative">
                     <a id="header-logo" aria-label="Logo" class="navbar-brand header-logo py-9 inline-block align-middle"
                         href="{!! App::getLogo()['href'] !!}">

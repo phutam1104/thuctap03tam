@@ -1,0 +1,17 @@
+.sick {
+    .carousel {
+                span {
+                    @apply sm:hidden lg:inline;
+                }
+                h6 {
+                    @apply sm:text-sm md:text-h6-md;
+                    }
+
+            button {
+                span {
+                    @apply block;
+                }
+            
+            }
+        }
+    }

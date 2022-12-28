@@ -2,12 +2,13 @@
 
 namespace App\Controllers\Modules;
 
-class Banner
+class ModThreecolcontent
 {
     public function dataModule($module)
     {
         return (object) [
-            'module' => $module
+            'module' => $module,
+            'threecolcontent'=>$module['threecolcontent'],
         ];
     }
 }

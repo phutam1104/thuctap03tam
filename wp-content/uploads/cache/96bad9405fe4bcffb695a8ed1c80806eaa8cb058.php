@@ -1,10 +1,3 @@
-
-        
-    
-    
-    
-
-   
     <section class="w-full content-1 sm:-mt-85 lg:-mt-16 xl:-mt-100 2xl:-mt-94">
 
         <div class="flex flex-wrap sm:justify-center md:w-full">
@@ -15,11 +8,7 @@
                 <p><?php echo $data->module['contenc1']; ?></p>
             </div>
         </div>
-        <?php 
-    // var_dump($data->module['threecol']);
-    // var_dump($data->module['twoimg']);
-    ?>
-        <div class="lg:flex lg:w-full md:block lg:flex-row lg:justify-center md:justify-center lg:items-start md:items-center md:w-full md:px-77 sm:pt-25 lg:pt-23 lg:px-9 xl:px-80 2xl:px-201">
+         <div class="lg:flex lg:w-full md:block lg:flex-row lg:justify-center md:justify-center lg:items-start md:items-center md:w-full md:px-77 sm:pt-25 lg:pt-23 lg:px-9 xl:px-80 2xl:px-201">
             <div class="flex flex-col justify-center items-center lg:px-18 xl:px-0 ">
                 <img src="<?php echo e($data->module['threecol'][0]->icon3col->url); ?>" alt="<?php echo e($data->module['threecol'][0]->icon3col->alt); ?>">
                 <div class="one-1 lg:min-w-255 sm:mt-10 lg:mt-0 xl:min-w-288 2xl:hidden">

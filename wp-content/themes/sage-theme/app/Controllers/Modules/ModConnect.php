@@ -7,7 +7,11 @@ class ModConnect
     public function dataModule($module)
     {
         return (object) [
-            'module' => $module
+            'module' => $module,
+            'contentconnect'=>$module['contentconnect'],
+            'linkconnect'=>$module['linkconnect'],
+            'titleconnect'=>$module['titleconnect']
+
         ];
     }
 }

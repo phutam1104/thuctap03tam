@@ -1,13 +1,13 @@
 .banner {
-    div {
+ 
+
 
             h1 {
                 @apply text-white md:text-center lg:text-left;
             }
             p {
-                @apply text-white font-light text-xl md:text-center lg:text-left tracking-sp016 leading-1.4;
+                @apply text-pbig text-white font-light md:text-center lg:text-left tracking-sp016;
 
             }
             
-        }
 }

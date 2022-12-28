@@ -2,7 +2,7 @@
 
 namespace App\Controllers\Modules;
 
-class SlickSingleItem
+class ModSingleItem
 {   
 
     public function dataModule($module)
@@ -17,6 +17,7 @@ class SlickSingleItem
         }
         return (object) [
             'module' => $module,
+            'slicksingle'=>$module['slicksingle'],
             // 'dataslick'=> $module['pos'],
 
         ];

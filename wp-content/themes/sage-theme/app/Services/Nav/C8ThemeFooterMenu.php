@@ -219,7 +219,7 @@ class C8ThemeFooterMenu extends \Walker_Nav_Menu {
 		$title = apply_filters( 'nav_menu_item_title', $title, $menu_item, $args, $depth );
 
 		$item_output  = $args->before;
-		$item_output .= '<a' . $attributes . ' class="no-underline text-base">';
+		$item_output .= '<a' . $attributes . ' class="no-underline font-semibold text-base">';
 		$item_output .= $args->link_before . $title . $args->link_after;
 		$item_output .= '</a>';
 		$item_output .= $args->after;

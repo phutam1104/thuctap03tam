@@ -240,7 +240,7 @@ class C8ThemeHeaderMenu extends \Walker_Nav_Menu {
 		$title = apply_filters( 'nav_menu_item_title', $title, $menu_item, $args, $depth );
 
 		$item_output  = $args->before;
-		$item_output .= '<a' . $attributes . ' class="no-underline hover:text-red-500 block text-lg py-9 lg:pb-9 lg:pt-13 lg:pl-10 lg:pr-35">';
+		$item_output .= '<a' . $attributes . ' class="no-underline font-semibold text-lg py-9 lg:pb-9 lg:pt-13 lg:pl-10 lg:pr-35" >';
 		$item_output .= $args->link_before . $title . $args->link_after;
 		$item_output .= '</a>';
 		$item_output .= $args->after;

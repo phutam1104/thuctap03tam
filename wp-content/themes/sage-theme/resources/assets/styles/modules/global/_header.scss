@@ -1,7 +1,7 @@
-
 .pin-header {
-  @apply bg-blue-300 hover:underline ;
+  @apply bg-blue-300 ;
 }
+
 .page-home-data,
 .front-page-data,
 .error404 {
@@ -11,7 +11,7 @@
     }
 
     .main-menu-ul {
-    
+     
     }
 
     .btn-transparent {
@@ -22,9 +22,6 @@
       }
     }
   }
-}
-a {
-    @apply font-semibold;
 }
 
 .screenshot {
