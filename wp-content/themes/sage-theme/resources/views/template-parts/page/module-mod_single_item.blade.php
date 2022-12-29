@@ -1,4 +1,4 @@
-<section class="sick w-full mt-9 lg:mt-0 ">
+<section class="single-item w-full mt-9 lg:mt-0 ">
         <div class="carousel md:min-w-634 md:min-h-462 md:ml-32 md:mr-35 lg:ml-51 lg:mr-53 xl:mr-137 xl:ml-80 2xl:ml-197 xl:mt-10 2xl:mr-262 bg-white rounded-4xl shadow-2xl shadow-blue-50 relative">
                 <div class="slick-single md:top-55 sm:pl-19 sm:pr-22 lg:pl-56 xl:pr-115 md:min-w-551 absolute">
                         @foreach ($data->slicksingle as $item)

@@ -1,5 +1,4 @@
 <!-- import css, not include backend -->
-<div class="border-opacity-20 border-white border-b-1"></div>
 <div class="no-underline"></div>
 <div class="d-none h-96">
   <div class="h-0 h-5 h-10 h-15 h-20 h-25 h-30 h-35 h-40 h-45 h-50 h-55

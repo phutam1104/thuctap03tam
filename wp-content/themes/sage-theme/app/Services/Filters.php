@@ -10,4 +10,5 @@ trait Filters
             \App\locate_template('partials/filter/item.blade.php', $data)
         );
     }
+    
 }

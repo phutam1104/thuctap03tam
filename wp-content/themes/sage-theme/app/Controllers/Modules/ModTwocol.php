@@ -7,7 +7,8 @@ class ModTwocol
     public function dataModule($module)
     {
         return (object) [
-            'module' => $module
+            'module' => $module,
+            'contenttowcol'=>$module['contenttowcol'],
         ];
     }
 }

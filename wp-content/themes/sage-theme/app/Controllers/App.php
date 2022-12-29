@@ -174,7 +174,7 @@ class App extends Controller
                 CONTAINER => false,
                 DEPTH => 2,
                 WALKER => new \App\Services\Nav\C8ThemeHeaderMenu(),
-                'menu_class' => 'main-menu-ul navbar-nav list-none flex mb-0 p-0 text-white flex-col text-inherit
+                'menu_class' => 'main-menu-ul navbar-nav list-none flex mb-0 p-0 text-white flex-col
                 lg:flex-row lg:justify-end',
                 ECHO_TEXT => false,
             ));

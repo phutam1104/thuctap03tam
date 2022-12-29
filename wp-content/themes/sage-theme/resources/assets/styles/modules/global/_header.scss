@@ -1,6 +1,12 @@
+header {
+
 .pin-header {
   @apply bg-blue-300 ;
 }
+
+  a {
+    @apply no-underline;
+  }
 
 .page-home-data,
 .front-page-data,
@@ -55,7 +61,7 @@
   }
 }
 
-
+}
 @media (max-width: 767px) and (orientation: landscape) {
   .header {
     @apply absolute bg-transparent #{!important};
